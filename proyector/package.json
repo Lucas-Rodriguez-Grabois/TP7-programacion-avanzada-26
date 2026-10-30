@@ -1,0 +1,14 @@
+{
+  "name": "rutasur-proyector",
+  "version": "1.0.0",
+  "description": "Microservicio Proyector: CQRS Read-Model de Envíos en MongoDB - RutaSur TP7",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "mongodb": "^6.8.0"
+  }
+}

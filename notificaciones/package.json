@@ -1,0 +1,13 @@
+{
+  "name": "rutasur-notificaciones",
+  "version": "1.0.0",
+  "description": "Microservicio de Notificaciones al Cliente - RutaSur TP7 (Caso de Uso 4)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}

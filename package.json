@@ -1,0 +1,17 @@
+{
+  "name": "rutasur-simulador",
+  "version": "1.0.0",
+  "description": "Simulador de eventos logísticos de origen para la plataforma RutaSur - TP7",
+  "main": "simulador.js",
+  "scripts": {
+    "start": "node simulador.js",
+    "demo:feliz": "node simulador.js --escenario 1",
+    "demo:ausente": "node simulador.js --escenario 2",
+    "demo:demorado": "node simulador.js --escenario 3",
+    "demo:tercer-fallo": "node simulador.js --escenario 4",
+    "demo:rafaga": "node simulador.js --escenario 5"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}

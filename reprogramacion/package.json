@@ -1,0 +1,14 @@
+{
+  "name": "rutasur-reprogramacion",
+  "version": "1.0.0",
+  "description": "Microservicio de Reprogramación: Gestión de Entregas Fallidas - RutaSur TP7",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "mongodb": "^6.8.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "rutasur-monitor-sla",
+  "version": "1.0.0",
+  "description": "Microservicio Monitor de SLA: Detección y Emisión de Alertas de Demora en Hub - RutaSur TP7",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
